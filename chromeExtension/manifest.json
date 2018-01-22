@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "myscript.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Replaces instances of Cooper Union with 'New York Univesrity'",
+   "icons": {
+      "128": "images/logo_128.png",
+      "16": "images/logo_16.png",
+      "48": "images/logo_48.png"
+   },
+   "manifest_version": 2,
+   "name": "CUtoNYU",
+   "short_name": "Replaces instances of Cooper Union with 'New York Univesrity',
+   "version": "1"
+}
